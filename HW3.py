@@ -33,7 +33,7 @@ def insertionSort(arr, l, r):
 r = 11
 
 # Read in the input elements from the file
-input_file = sys.argv[1]
+input_file = "input_file"
 with open(input_file, "r") as f:
     arr = list(map(int, f.readline().split()))
 
