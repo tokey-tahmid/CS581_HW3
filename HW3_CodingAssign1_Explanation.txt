@@ -1,0 +1,13 @@
+COSC581 - Algorithms
+Spring 2023
+Homework #3
+Programming Assignment #1
+
+
+
+Justification for the choice of r
+The value of r represents the threshold for when the quicksort algorithm should revert to using insertion sort. A value of 11 was chosen because it is a commonly used threshold in the literature and has been shown to provide good results in practice. It strikes a good balance between the overhead of the recursive calls and the efficiency of the insertion sort when the sublists become small.
+
+Determining the value of n
+To determine the value of n at which quicksort should revert to insertion sort, we can perform experimental analysis. This would involve running the quicksort algorithm on a variety of inputs with different sizes, and measuring the time it takes to sort each input. By plotting the time it takes to sort each input size, we can determine the value of n at which quicksort becomes slower than insertion sort. The exact value of n will depend on various factors, such as the size of the input, the efficiency of the implementation, and the performance of the underlying hardware. To obtain accurate results, the experimental analysis should be performed on a variety of inputs and hardware, and the results should be statistically analyzed to account for variability.
+
